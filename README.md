@@ -62,6 +62,22 @@ CKPT_PATH=../dataset/vidvrd/model/stage2_tcp.pth bash test_vidvrd_openvoc.sh
 
 ## Citation
 
+If you find this repository useful, please cite our SAGE paper:
+
+```bibtex
+@article{wang2026sage,
+  title={SAGE: Semantic-Guided Framework with Decoupled Optimization for Open-Vocabulary Video Visual Relationship Detection},
+  author={Wang, Shiqi and Xue, Weiying and Hu, Shuyi and Li, Haowen and Liu, Qi},
+  journal={Neural Networks},
+  volume={203},
+  pages={109183},
+  year={2026},
+  doi={10.1016/j.neunet.2026.109183}
+}
+```
+
+This repository is built on our AAAI 2024 baseline:
+
 ```bibtex
 @inproceedings{yang2024multi,
   title={Multi-Modal Prompting for Open-Vocabulary Video Visual Relationship Detection},
