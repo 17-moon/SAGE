@@ -1,21 +1,12 @@
-# MMP_OV_VidVRD
+# SAGE
 
-Implementation for the paper "Multi-modal Prompting for Open-vocabulary Video Visual Relationship Detection" (AAAI 2024).
+**SAGE: Semantic-Guided Framework with Decoupled Optimization for Open-Vocabulary Video Visual Relationship Detection**
 
-## Public Release
+SAGE has been accepted by *Neural Networks*. This repository provides the baseline implementation built on our AAAI 2024 work, "Multi-modal Prompting for Open-vocabulary Video Visual Relationship Detection".
 
-This GitHub-clean copy keeps the lightweight evaluation/model code and omits large or private artifacts:
+## Overview
 
-- Model checkpoints and pretrained weights are not included.
-- Image files and generated plots are not included.
-- Feature extraction scripts are not included.
-- Training scripts are not included.
-- Visualization scripts are not included.
-
-The public `scripts/model_zoo` folder intentionally keeps only:
-
-- `model_stage1.py`
-- `stage2_tcp.py`
+Open-vocabulary video visual relationship detection aims to recognize relationships beyond annotated categories, including unseen interactions between seen and unseen objects. SAGE addresses two key challenges in dynamic video scenes: the visual-semantic gap caused by weak spatio-temporal cues, and optimization instability caused by noisy instance-level visual representations. The framework introduces multimodal LLM-guided semantic reasoning to enrich visual representations with structured interaction descriptions, and a decoupled class-aware prompting strategy that adapts classifiers from stable class-level textual knowledge. Experiments on VidVRD and VidOR demonstrate strong generalization, especially on novel relationship categories.
 
 ## Prerequisites
 
