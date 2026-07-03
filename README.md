@@ -75,17 +75,3 @@ If you find this repository useful, please cite our SAGE paper:
   doi={10.1016/j.neunet.2026.109183}
 }
 ```
-
-This repository is built on our AAAI 2024 baseline:
-
-```bibtex
-@inproceedings{yang2024multi,
-  title={Multi-Modal Prompting for Open-Vocabulary Video Visual Relationship Detection},
-  author={Yang, Shuo and Wang, Yongqi and Ji, Xiaofeng and Wu, Xinxiao},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={38},
-  number={7},
-  pages={6513--6521},
-  year={2024}
-}
-```
